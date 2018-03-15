@@ -56,15 +56,15 @@
   "production": {
     "js": [
       {
-        "path": "resources/ext-pdf-viewer/lib/pdf.js/minified/compatibility.js",
+        "path": "classic/resources/ext-pdf-viewer/lib/pdf.js/minified/compatibility.js",
         "remote": true
       },
       {
-        "path": "resources/ext-pdf-viewer/lib/pdf.js/minified/pdf.js",
+        "path": "classic/resources/ext-pdf-viewer/lib/pdf.js/minified/pdf.js",
         "remote": true
       },
       {
-        "path": "resources/ext-pdf-viewer/lib/pdf.js/minified/pdf.worker.js",
+        "path": "classic/resources/ext-pdf-viewer/lib/pdf.js/minified/pdf.worker.js",
         "remote": true
       }
     ]
