@@ -53,35 +53,6 @@
       "output": "shared"
     }
   ],
-  "production": {
-    "js": [
-      {
-        "path": "classic/resources/ext-pdf-viewer/lib/pdf.js/minified/compatibility.js",
-        "remote": true
-      },
-      {
-        "path": "classic/resources/ext-pdf-viewer/lib/pdf.js/minified/pdf.js",
-        "remote": true
-      },
-      {
-        "path": "classic/resources/ext-pdf-viewer/lib/pdf.js/minified/pdf.worker.js",
-        "remote": true
-      }
-    ]
-  },
-  "development": {
-    "js": [
-      {
-        "path": "resources/lib/pdf.js/minified/compatibility.js"
-      },
-      {
-        "path": "resources/lib/pdf.js/minified/pdf.js"
-      },
-      {
-        "path": "resources/lib/pdf.js/minified/pdf.worker.js"
-      }
-    ]
-  },
   "css": [],
   "requires": [
     "font-awesome"
