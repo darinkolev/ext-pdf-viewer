@@ -160,14 +160,14 @@ Ext.define('PdfViewer.view.panel.PDF', {
                 reference: 'first',
                 tooltip: me.firstText,
                 overflowText: me.firstText,
-                iconCls: 'ext ext-double-chevron-left',
+                iconCls: 'fa fa-angle-double-left',
                 disabled: true,
                 handler: 'moveFirst'
             }, {
                 reference: 'prev',
                 tooltip: me.prevText,
                 overflowText: me.prevText,
-                iconCls: 'ext ext-chevron-left',
+                iconCls: 'fa fa-chevron-left',
                 disabled: true,
                 handler: 'movePrevious'
             }, '-', me.beforePageText, {
@@ -191,14 +191,14 @@ Ext.define('PdfViewer.view.panel.PDF', {
                 reference: 'next',
                 tooltip: me.nextText,
                 overflowText: me.nextText,
-                iconCls: 'ext ext-chevron-right',
+                iconCls: 'fa fa-chevron-right',
                 disabled: true,
                 handler: 'moveNext'
             }, {
                 reference: 'last',
                 tooltip: me.lastText,
                 overflowText: me.lastText,
-                iconCls: 'ext ext-double-chevron-right',
+                iconCls: 'fa fa-angle-double-right',
                 disabled: true,
                 handler: 'moveLast'
             }, '->', {
