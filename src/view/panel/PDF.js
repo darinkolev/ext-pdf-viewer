@@ -224,7 +224,7 @@ Ext.define('PdfViewer.view.panel.PDF', {
         }];
 
         if (typeof(me.dockedItems) !== 'undefined') {
-            dockedItems = dockedItems.concat(me.dockedItems);
+            dockedItems[0].items.push(me.dockedItems);
         }
 
         Ext.apply(me, {
